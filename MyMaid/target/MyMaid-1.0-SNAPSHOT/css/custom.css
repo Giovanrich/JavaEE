@@ -1,0 +1,59 @@
+
+/* 
+    Created on : Nov 23, 2018, 10:55:37 AM
+    Author     : chiraran
+    */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: #2BBBAD;
+}
+
+.navbar-inverse {
+  background-color: #00695c;
+  border-color: #00695c;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: #2bbbad;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 61px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #00695c;
+}
+
+.jumbotron{
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.wide {
+  width:100%;
+  height:100%;
+  height:calc(100% - 1px);
+  background-image:url('1.jpg');
+  background-size:cover;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
