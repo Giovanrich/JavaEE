@@ -1,0 +1,16 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body{
+	background-color: #bfcecc;	
+	/*This is meant to avoid Bootstrap from hiding content
+	belw the navbar*/
+	padding-top: 65px; 
+}
+
+.navbar-inverse {
+	background-color: #607D8B;
+	border-color: #bfcecc;
+}
